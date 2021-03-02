@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Atari OSS Cartridge-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -831,4 +832,21 @@ Wire Wire Line
 	6700 3850 6700 4475
 Wire Wire Line
 	6700 4475 7825 4475
+$Comp
+L Device:C C8
+U 1 1 60420E92
+P 4875 7000
+F 0 "C8" H 4900 7075 50  0000 L CNN
+F 1 "100n" H 4900 6925 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4913 6850 50  0001 C CNN
+F 3 "~" H 4875 7000 50  0001 C CNN
+	1    4875 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 6850 5200 6850
+Connection ~ 5200 6850
+Wire Wire Line
+	4875 7150 5200 7150
+Connection ~ 5200 7150
 $EndSCHEMATC
