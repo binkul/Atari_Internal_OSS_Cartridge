@@ -754,8 +754,6 @@ RD5_OUT
 Wire Wire Line
 	8825 4475 8825 5550
 Wire Wire Line
-	8825 5550 575  5550
-Wire Wire Line
 	3850 4900 3850 6900
 Wire Wire Line
 	1150 6900 3850 6900
@@ -849,4 +847,6 @@ Connection ~ 5200 6850
 Wire Wire Line
 	4875 7150 5200 7150
 Connection ~ 5200 7150
+Wire Wire Line
+	875  5550 8825 5550
 $EndSCHEMATC
